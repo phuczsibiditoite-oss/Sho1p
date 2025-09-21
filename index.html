@@ -139,32 +139,97 @@
     <a href="#" class="btn">Bắt đầu ngay</a>
   </section>
 
-  <section class="services">
-    <h2>Dịch vụ nổi bật</h2>
-    <div class="cards">
-      <div class="card">
-        <img src="https://placehold.co/400x200?text=Cay+Thue+Blox+Fruit" alt="Cày Thuê Blox Fruit">
-        <h3>Cày Thuê Blox Fruit</h3>
-        <p>Cày cấp, lấy đồ, fragments... uy tín & nhanh chóng</p>
-        <a href="#" class="btn btn-card">Xem ngay</a>
-      </div>
-      <div class="card">
-        <img src="https://placehold.co/400x200?text=Nap+The+Cao" alt="Nạp Thẻ Cào">
-        <h3>Nạp Thẻ Cào</h3>
-        <p>Hỗ trợ Viettel, Mobi, Vina, Vietnamobile với tỷ lệ tốt</p>
-        <a href="#" class="btn btn-card">Nạp ngay</a>
-      </div>
-      <div class="card">
-        <img src="https://placehold.co/400x200?text=Ho+Tro+24/7" alt="Hỗ trợ 24/7">
-        <h3>Hỗ trợ 24/7</h3>
-        <p>Liên hệ ngay qua Zalo/Discord khi cần hỗ trợ</p>
-        <a href="#" class="btn btn-card">Liên hệ</a>
-      </div>
+<!-- Phần Dịch vụ nổi bật -->
+<section class="services">
+  <h2>Dịch vụ nổi bật</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Cày Thuê Blox Fruit">
+      <h3>Cày Thuê Blox Fruit</h3>
+      <p>Cày cấp, lấy đồ, fragments... uy tín & nhanh chóng</p>
+      <button>Xem ngay</button>
     </div>
-  </section>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Nạp Thẻ Cào">
+      <h3>Nạp Thẻ Cào</h3>
+      <p>Hỗ trợ Viettel, Mobi, Vina, Vietnamobile với tỷ lệ tốt</p>
+      <button>Nạp ngay</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Hỗ trợ 24/7">
+      <h3>Hỗ trợ 24/7</h3>
+      <p>Liên hệ ngay qua Zalo/Discord khi cần hỗ trợ</p>
+      <button>Liên hệ</button>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <p>© 2025 Shop Roblox - Liên hệ để đặt dịch vụ</p>
-  </footer>
-</body>
-</html>
+<!-- CSS -->
+<style>
+.services {
+  text-align: center;
+  padding: 50px 20px;
+  background: #000; /* nền đen */
+  color: #fff;      /* chữ trắng */
+}
+
+.services h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #111; /* nền xám đậm để nổi bật */
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.2s, background 0.3s;
+  color: #fff;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin: 15px 0 10px;
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.card button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.card button:hover {
+  background: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #222;
+}
+</style>
