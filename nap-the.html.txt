@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Nạp Thẻ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">SHOP ROBLOX</div>
+    <nav>
+      <a href="index.html">Trang Chủ</a>
+      <a href="cay-thue.html">Cày Thuê</a>
+      <a href="nap-the.html">Nạp Thẻ</a>
+      <a href="lien-he.html">Liên Hệ</a>
+    </nav>
+  </header>
+
+  <div class="form-box">
+    <h2>Nạp Thẻ Cào</h2>
+    <label>Loại thẻ</label>
+    <select>
+      <option>Viettel</option>
+      <option>Mobifone</option>
+      <option>Vinaphone</option>
+      <option>Vietnamobile</option>
+    </select>
+
+    <label>Mệnh giá</label>
+    <select>
+      <option>100.000 VNĐ</option>
+      <option>200.000 VNĐ</option>
+      <option>500.000 VNĐ</option>
+      <option>1.000.000 VNĐ</option>
+    </select>
+
+    <label>Mã thẻ</label>
+    <input type="text" placeholder="Nhập mã thẻ">
+
+    <label>Số seri</label>
+    <input type="text" placeholder="Nhập số seri">
+
+    <a href="lien-he.html" class="btn">Gửi Ngay</a>
+  </div>
+
+  <footer>
+    <p>© 2025 Shop Roblox - Uy tín tạo nên thương hiệu</p>
+  </footer>
+</body>
+</html>

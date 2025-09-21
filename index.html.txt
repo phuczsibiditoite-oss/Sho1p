@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop Roblox Uy Tín</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">SHOP ROBLOX</div>
+    <nav>
+      <a href="index.html">Trang Chủ</a>
+      <a href="cay-thue.html">Cày Thuê</a>
+      <a href="nap-the.html">Nạp Thẻ</a>
+      <a href="lien-he.html">Liên Hệ</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h1>🔥 SHOP ROBLOX UY TÍN 🔥</h1>
+    <p>Mua bán acc – Dịch vụ cày thuê – Đổi thẻ nhanh chóng</p>
+    <a href="cay-thue.html" class="btn">Bắt đầu ngay</a>
+  </section>
+
+  <section class="services">
+    <h2>Dịch vụ nổi bật</h2>
+    <div class="service-list">
+      <div class="service-card">
+        <img src="https://i.imgur.com/0y8Ftya.png" alt="Cày Thuê">
+        <h3>Cày Thuê Blox Fruit</h3>
+        <p>Cày cấp, lấy đồ, fragments... uy tín & nhanh chóng</p>
+        <a href="cay-thue.html" class="btn">Xem ngay</a>
+      </div>
+      <div class="service-card">
+        <img src="https://i.imgur.com/r1k3pBf.png" alt="Nạp Thẻ">
+        <h3>Nạp Thẻ Cào</h3>
+        <p>Hỗ trợ Viettel, Mobi, Vina, Vietnamobile với tỷ lệ tốt</p>
+        <a href="nap-the.html" class="btn">Nạp Ngay</a>
+      </div>
+      <div class="service-card">
+        <img src="https://i.imgur.com/LcVwS9U.png" alt="Liên Hệ">
+        <h3>Hỗ trợ 24/7</h3>
+        <p>Liên hệ ngay qua Zalo/Discord khi cần hỗ trợ</p>
+        <a href="lien-he.html" class="btn">Liên Hệ</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Shop Roblox - Uy tín tạo nên thương hiệu</p>
+  </footer>
+</body>
+</html>
