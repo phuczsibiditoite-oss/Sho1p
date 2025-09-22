@@ -4,127 +4,206 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ITatzuk1Shoip</title>
- <style>
-/* ===== Body & chung ===== */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #000; /* nền đen */
-  color: #fff;       /* chữ trắng */
-}
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #aaa;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: #000;
+      color: #fff;
+    }
+    .hero h2 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      border: 2px solid #fff;
+      background: transparent;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #fff;
+      color: #000;
+    }
+    .services {
+      text-align: center;
+      padding: 50px 20px;
+      background: #000;
+    }
+    .services h2 {
+      font-size: 1.8em;
+      margin-bottom: 30px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: #111;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s, background 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      background: #222;
+    }
+    .card img {
+      max-width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .card h3 {
+      margin: 15px 0 10px;
+    }
+    .card p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    .btn-card {
+      border: 2px solid #fff;
+      background: transparent;
+      color: #fff;
+    }
+    .btn-card:hover {
+      background: #fff;
+      color: #000;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #111;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ITatzuk1Shoip</h1>
+    <nav>
+      <a href="#">Trang Chủ</a>
+      <a href="#">Cày Thuê</a>
+      <a href="#">Nạp Thẻ</a>
+      <a href="#">Liên Hệ</a>
+    </nav>
+  </header>
 
-/* ===== Header ===== */
-header {
-  background: #111;
-  color: #fff;
-  padding: 15px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  <section class="hero">
+    <h2>🔥 SHOP ROBLOX UY TÍN 🔥</h2>
+    <p>Mua bán acc – Dịch vụ cày thuê</p>
+    <a href="#" class="btn">Bắt đầu ngay</a>
+  </section>
 
-header h1 {
-  margin: 0;
-  font-size: 22px;
-  font-weight: bold;
-}
+<!-- Phần Dịch vụ nổi bật -->
+<section class="services">
+  <h2>Dịch vụ nổi bật</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Cày Thuê Blox Fruit">
+      <h3>Cày Thuê Forsaken</h3>
+      <p>Cày cấp, Cày Tiền uy tín & nhanh chóng</p>
+      <button>Xem ngay</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Nạp Thẻ Cào">
+      <h3>Nạp Thẻ Cào</h3>
+      <p>Hỗ trợ Viettel, Mobi, Vina, Vietnamobile</p>
+      <button>Nạp ngay</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Hỗ trợ 24/7">
+      <h3>Hỗ trợ 24/7</h3>
+      <p>Liên hệ ngay qua Zalo/Discord khi cần hỗ trợ</p>
+      <button>Liên hệ</button>
+    </div>
+  </div>
+</section>
 
-nav a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #0f0; /* hover màu neon xanh lá cho nổi bật */
-}
-
-/* ===== Hero ===== */
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-  background: #000;
-  color: #fff;
-}
-
-.hero h2 {
-  font-size: 2.2em;
-  margin-bottom: 10px;
-  text-shadow: 0 0 8px #fff;
-}
-
-.hero p {
-  font-size: 1.2em;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 25px;
-  border: 2px solid #fff;
-  background: #000;
-  color: #fff;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
-.btn:hover {
-  background: #0f0;
-  color: #000;
-  box-shadow: 0 0 15px #0f0;
-}
-
-/* ===== Services ===== */
+<!-- CSS -->
+<style>
 .services {
   text-align: center;
   padding: 50px 20px;
-  background: #000;
-  color: #fff;
+  background: #000; /* nền đen */
+  color: #fff;      /* chữ trắng */
 }
 
 .services h2 {
   font-size: 28px;
   margin-bottom: 30px;
-  text-shadow: 0 0 5px #fff;
 }
 
 .card-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
-/* ===== Card ===== */
 .card {
-  background: #111;
-  border: 2px solid #0f0; /* viền neon xanh */
-  border-radius: 12px;
+  background: #111; /* nền xám đậm để nổi bật */
+  border: 2px solid #fff;
+  border-radius: 10px;
   padding: 20px;
   width: 300px;
   text-align: center;
-  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.2s, background 0.3s;
   color: #fff;
-  box-shadow: 0 2px 8px rgba(0,255,0,0.2);
 }
 
 .card img {
   max-width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 6px;
-  border: 1px solid #0f0;
+  border-radius: 5px;
 }
 
 .card h3 {
   margin: 15px 0 10px;
   font-size: 20px;
-  text-shadow: 0 0 4px #0f0;
 }
 
 .card p {
@@ -132,39 +211,26 @@ nav a:hover {
   margin-bottom: 15px;
 }
 
-.card button,
-.btn-card {
-  border: 2px solid #0f0;
-  background: #000;
-  color: #0f0;
+.card button {
+  background: #fff;
+  color: #000;
+  border: none;
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: background 0.3s, color 0.3s;
 }
 
-.card button:hover,
-.btn-card:hover {
-  background: #0f0;
-  color: #000;
-  box-shadow: 0 0 10px #0f0;
-}
-
-/* Card hover */
-.card:hover {
-  transform: scale(1.08);
-  background: #222;
-  box-shadow: 0 4px 15px rgba(0,255,0,0.4);
-}
-
-/* ===== Footer ===== */
-footer {
-  text-align: center;
-  padding: 15px;
-  background: #111;
+.card button:hover {
+  background: #000;
   color: #fff;
-  margin-top: 40px;
-  text-shadow: 0 0 3px #fff;
+  border: 1px solid #fff;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #222;
 }
 </style>
+
